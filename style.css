@@ -33,6 +33,7 @@ h1 {
 
 .head {
     background-image: url("./assets/images/bg-hero-desktop.svg");
+    /* box-shadow: inset 0 0 0 2000px rgba(0, 255, 255, 0.01); */
     padding: 40px 60px;
 }
 /* top--nav */
@@ -77,6 +78,7 @@ h1 {
 @media only screen and (max-width: 1439px) {
     .head {
         padding: 40px 20px;
+        background-image: url("./assets/images/bg-hero-mobile.svg");
     }
     .container {
         width: 375px;
